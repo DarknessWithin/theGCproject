@@ -1,0 +1,3 @@
+com\camel\odoo\processor\DynamicERPProcessor.class
+com\camel\odoo\CamelApplication.class
+com\camel\odoo\DynamicERPRouteBuilder.class
