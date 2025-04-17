@@ -5,7 +5,7 @@ FROM openjdk:17-jdk-slim
 WORKDIR /app
 
 # Copy the JAR file into the image
-COPY camel-odoo-integration/target/camel-odoo-integration-1.0-SNAPSHOT.jar /app/app.jar
+COPY camel-odoo-integration/target/orignal-camel-odoo-integration-1.0-SNAPSHOT.jar /app/app.jar
 
 # Expose a dynamic port (Railway sets PORT env)
 EXPOSE 8080
